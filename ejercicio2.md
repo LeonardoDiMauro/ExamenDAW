@@ -123,7 +123,7 @@ Este comando nos dice si el texto indicado existe dentro del archivo, si existe,
 temp=$(grep -l "$2" /etc/hosts) 
 ```
 
-##Conclusión:
+## Conclusión:
 
 Esta programa bash ahorra tiempo a la hora de crear o modificar nuevos host virtuales o uno ya existente. Con solo añadir los parámetros los archivos clave se modifican cumpliendo las condiciones establecidas en el programa.
 
