@@ -116,6 +116,11 @@ linea=$(awk '/'$2'/{print NR}' etc/hosts)
 Con este comando borramos la linea 11 del fichero hosts:
 ```
 sed -i "11d" etc/hosts
+
+```
+Este comando nos dice si el texto indicado existe dentro del archivo, si existe, devuelve el nombre del archivo:
+```
+temp=$(grep -l "$2" /etc/hosts) 
 ```
 
 ##Conclusión:
